@@ -10,7 +10,7 @@ export function Header() {
           <span className="flex h-8 w-8 items-center justify-center rounded-md border border-slate-200">
             <Sparkles className="h-4 w-4" aria-hidden="true" />
           </span>
-          <span className="text-lg font-semibold tracking-tight">FotoLinkedin AI</span>
+          <span className="text-lg font-bold tracking-tight">Foto<span className="text-sky-500">Linkedin</span> AI</span>
         </div>
 
         <nav className="flex items-center gap-6 text-sm font-medium text-slate-700">
