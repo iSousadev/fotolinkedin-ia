@@ -20,10 +20,3 @@ Em desenvolvimento inicial, com primeiro layout funcional.
 - Hero com CTA e exemplos usando fotos reais (`foto1.jpg`, `foto2.jpg`, `foto3.jpg`)
 - Upload de foto com area clicavel/drag, preview, botao de remover e CTA "Gerar foto profissional"
 
-## Como rodar
-
-```bash
-npm run dev
-```
-
-Depois, acesse `http://localhost:3000`.

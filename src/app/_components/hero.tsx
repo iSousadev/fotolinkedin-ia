@@ -24,8 +24,8 @@ export function Hero() {
         </div>
       </div>
 
-      <div className="flex items-center gap-4" id="exemplos">
-        <div className="h-24 w-24 overflow-hidden rounded-2xl bg-slate-100 sm:h-28 sm:w-28">
+      <div className="flex  justify-center lg:justify-start items-center gap-4">
+        <div className="relative w-32 h-32 rounded-2xl overflow-hidden bg-gray-200 -rotate-2">
           <Image
             src="/foto1.jpg"
             alt="Exemplo de foto profissional 1"
@@ -35,7 +35,7 @@ export function Hero() {
             sizes="(min-width: 640px) 112px, 96px"
           />
         </div>
-        <div className="h-24 w-24 overflow-hidden rounded-2xl bg-slate-100 sm:h-28 sm:w-28">
+        <div className="relative w-35 h-46 rounded-2xl overflow-hidden bg-gray-200">
           <Image
             src="/foto2.jpg"
             alt="Exemplo de foto profissional 2"
@@ -45,7 +45,7 @@ export function Hero() {
             sizes="(min-width: 640px) 112px, 96px"
           />
         </div>
-        <div className="h-24 w-24 overflow-hidden rounded-2xl bg-slate-100 sm:h-28 sm:w-28">
+        <div className="relative w-32 h-32 rounded-2xl overflow-hidden bg-gray-200 rotate-1">
           <Image
             src="/foto3.jpg"
             alt="Exemplo de foto profissional 3"
